@@ -1,6 +1,5 @@
 ----------------------------------------------------------------------
-TOPIC CLUSTER
--- Fundamentals of Linked Data 
+TOPIC CLUSTER: Fundamentals of Linked Data 
     
     TOPIC
     -- Basic Linked Data Principles and Concepts
@@ -51,8 +50,7 @@ TOPIC CLUSTER
         -- @Understands the concept of the named graph
 
 ----------------------------------------------------------------------
-TOPIC CLUSTER
--- Interacting with Linked Data
+TOPIC CLUSTER: Interacting with Linked Data
 
     TOPIC
     -- Searching RDF datastores with SPARQL
@@ -207,8 +205,7 @@ TOPIC CLUSTER
           in a particular dataset
 
 ----------------------------------------------------------------------
-TOPIC CLUSTER
--- Providing Linked Data
+TOPIC CLUSTER: Providing Linked Data
 
     TOPIC
     -- Creating RDF data
