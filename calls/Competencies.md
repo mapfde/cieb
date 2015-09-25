@@ -1,9 +1,3 @@
-2015-09-24
-
-Stuart: Building on Sean's synthesis (at bottom of this version), this version
-reduces the text from my previous version earlier to just the synthesis and
-eliminates the base texts from Sean's version. 
-
 ----------------------------------------------------------------------
 TOPIC CLUSTER
 -- Fundamentals of Linked Data 
