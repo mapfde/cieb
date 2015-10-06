@@ -39,7 +39,7 @@
 <http://explore.dublincore.net/vocabs/LDsubjects/0013> a skos:Concept ;
     skos:broader <http://explore.dublincore.net/vocabs/LDsubjects/0001> ;
     skos:inScheme <http://explore.dublincore.net/vocabs/LDsubjects/> ;
-    skos:prefLabel "Chosing vocabularies to describe data"@en-us .
+    skos:prefLabel "Choosing vocabularies to describe data"@en-us .
 
 <http://explore.dublincore.net/vocabs/LDsubjects/0014> a skos:Concept ;
     skos:broader <http://explore.dublincore.net/vocabs/LDsubjects/0001> ;
@@ -74,7 +74,7 @@
 <http://explore.dublincore.net/vocabs/LDsubjects/0020> a skos:Concept ;
     skos:broader <http://explore.dublincore.net/vocabs/LDsubjects/0002> ;
     skos:inScheme <http://explore.dublincore.net/vocabs/LDsubjects/> ;
-    skos:prefLabel "Creating and manage RDF data with SPARQL"@en-us .
+    skos:prefLabel "Creating and managing RDF data with SPARQL"@en-us .
 
 <http://explore.dublincore.net/vocabs/LDsubjects/0021> a skos:Concept ;
     skos:broader <http://explore.dublincore.net/vocabs/LDsubjects/0002> ;
