@@ -1,4 +1,4 @@
-Proposal for a revised Subject Vocabulary (Tom Baker)
+Proposal for a revised Vocabulary (Tom Baker)
 
 Fundamentals of Resource Description Framework
     Identity in RDF
@@ -19,7 +19,7 @@ RDF vocabularies - new
     Publishing RDF vocabularies
     Mapping RDF vocabularies
 
-Creating and transforming Linked Data - new
+Creating and transforming Linked Data
     Creating RDF data
     Versioning RDF data
     Models for data provenance
