@@ -1,9 +1,53 @@
+======================================================================
+Topic Index
+
+Fundamentals of Resource Description Framework
+    Identity in RDF
+    RDF data model
+    Related data models
+    RDF serialization
+
+Fundamentals of Linked Data
+    Web technology
+    Linked data principles
+    Linked Data architectures and services
+    Linked Data policies and best practices
+    Non-RDF Linked Data
+
+RDF vocabularies
+    Finding RDF vocabularies
+    Maintaining RDF vocabularies
+    Versioning RDF vocabularies
+    Publishing RDF vocabularies
+    Mapping RDF vocabularies
+    RDF application profiles
+
+Creating and transforming RDF Data
+    Managing identifiers (URIs)
+    Creating RDF data
+    Versioning RDF data
+    RDF data provenance
+    Cleaning and reconciling RDF data
+    Mapping and enriching RDF data
+
+Interacting with RDF Data
+    Finding RDF Data
+    Programming RDF Data
+    Querying RDF Data
+    Visualizing RDF Data
+    Reasoning over RDF
+    Assessing RDF Data quality
+    RDF Data analytics
+    Manipulating RDF Data
+
+Creating Linked Data applications
+    Storing RDF data
+    Linked Data application architecture
+    Linked Data mashups
+
 ----------------------------------------------------------------------
 TOPIC CLUSTER: Fundamentals of Linked Data 
-    
-    TOPIC
-    -- Basic Linked Data Principles and Concepts
-
+    TOPIC: Basic Linked Data Principles and Concepts
         COMPETENCIES
         -- Knows the subject-predicate-object structure of a triple
 
@@ -15,15 +59,11 @@ TOPIC CLUSTER: Fundamentals of Linked Data
            are just multiple alternative ways to write down, or "encode", a set 
            of triples, i.e., the "RDF graph"
 
-    TOPIC
-    -- Accessing RDF data on the Web
-
+    TOPIC: Accessing RDF data on the Web
         COMPETENCIES
         -- Retrieves and accesses RDF data from the "open Web"
 
-    TOPIC
-    -- Existing public vocabularies
-
+    TOPIC: Existing public vocabularies
         COMPETENCIES
         -- Uses relevant resources to discover existing Linked Data datasets
 
@@ -34,9 +74,7 @@ TOPIC CLUSTER: Fundamentals of Linked Data
            BENCHMARKS
            -- Uses prefixes for URIs in RDF specifications and data
 
-    TOPIC
-    -- @Something about serialization
-
+    TOPIC: @Something about serialization
         COMPETENCIES
         -- Formulates QNames as a shorthand mechanism in writing prefixes 
            for long URIs 
@@ -52,9 +90,7 @@ TOPIC CLUSTER: Fundamentals of Linked Data
 ----------------------------------------------------------------------
 TOPIC CLUSTER: Interacting with Linked Data
 
-    TOPIC
-    -- Searching RDF datastores with SPARQL
-
+    TOPIC: Searching RDF datastores with SPARQL
         COMPETENCIES
         -- Understands the "basic graph pattern" (BGP) of a SPARQL query as a 
            set of triple patterns.
@@ -183,9 +219,7 @@ TOPIC CLUSTER: Interacting with Linked Data
 
         -- Uses SPARQL to inserting, deleting, modifying RDF data
 
-    TOPIC
-    -- Visualization tools and techniques
-
+    TOPIC: Visualization tools and techniques
        COMPETENCIES
        -- Uses publicly available tools to visualize data
           BENCHMARKS
@@ -197,34 +231,25 @@ TOPIC CLUSTER: Interacting with Linked Data
        -- Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
           exact format required by a third party tools and APIs
 
-    TOPIC 
-    -- Methods for Linked Data analysis
-
+    TOPIC: Methods for Linked Data analysis
        COMPETENCY
        -- Uses available ontology browsing tools to explore the ontologies used
           in a particular dataset
 
 ----------------------------------------------------------------------
 TOPIC CLUSTER: Providing Linked Data
-
-    TOPIC
-    -- Creating RDF data
-
+    TOPIC: Creating RDF data
         COMPETENCIES
         -- Structures data using blank nodes where appropriate
 
-    TOPIC
-    -- Describing Linked Data for discovery
-       
+    TOPIC: Describing Linked Data for discovery
        COMPETENCIES
        -- Uses available vocabularies for dataset description to support their
           discovery
 
        -- Registers datasets with relevant services for discovery
 
-    TOPIC
-    -- Updating RDF with SPARQL 1.1
-
+    TOPIC: Updating RDF with SPARQL 1.1
        COMPETENCY
        -- Understands the SPARQL Graph Store HTTP protocol for editing 
           graphs on remote servers

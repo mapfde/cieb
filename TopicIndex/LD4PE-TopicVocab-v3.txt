@@ -1,4 +1,4 @@
-Topic Index
+Topic Index => moved - see https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex-draft.txt
 
 Fundamentals of Resource Description Framework
     Identity in RDF
@@ -21,7 +21,7 @@ RDF vocabularies
     Mapping RDF vocabularies
     RDF application profiles
 
-Creating and transforming Linked Data
+Creating and transforming RDF Data
     Managing identifiers (URIs)
     Creating RDF data
     Versioning RDF data
@@ -29,13 +29,15 @@ Creating and transforming Linked Data
     Cleaning and reconciling RDF data
     Mapping and enriching RDF data
 
-Interacting with Linked Data
-    Programming Linked Data
-    Querying Linked Data
-    Visualizing Linked Data
+Interacting with RDF Data
+    Finding RDF Data
+    Programming RDF Data
+    Querying RDF Data
+    Visualizing RDF Data
     Reasoning over RDF
-    Assessing Linked Data quality
-    Linked Data analytics
+    Assessing RDF Data quality
+    RDF Data analytics
+    Manipulating RDF Data
 
 Creating Linked Data applications
     Storing RDF data
