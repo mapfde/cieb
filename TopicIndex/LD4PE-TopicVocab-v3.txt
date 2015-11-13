@@ -30,12 +30,14 @@ Creating and transforming Linked Data
     Mapping and enriching RDF data
 
 Interacting with Linked Data
+    Finding Linked Data
     Programming Linked Data
     Querying Linked Data
     Visualizing Linked Data
     Reasoning over RDF
     Assessing Linked Data quality
     Linked Data analytics
+    Manipulating Linked Data
 
 Creating Linked Data applications
     Storing RDF data
