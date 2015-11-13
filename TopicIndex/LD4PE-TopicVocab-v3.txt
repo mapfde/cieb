@@ -1,4 +1,4 @@
-Topic Index
+Topic Index => moved - see https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex-draft.txt
 
 Fundamentals of Resource Description Framework
     Identity in RDF
