@@ -70,7 +70,9 @@ pet:ld05 a skos:Concept ;
         pet:ld30,
         pet:ld31,
         pet:ld32,
-        pet:ld33.
+        pet:ld33,
+        pet:ld37,
+        pet:ld38.
     
 pet:ld06 a skos:Concept ;
     skos:prefLabel "Creating Linked Data applications"@en-us ;
@@ -186,17 +188,17 @@ pet:ld27 a skos:Concept ;
     skos:inScheme pet: .   
 
 pet:ld28 a skos:Concept ;
-    skos:prefLabel "Programming Linked Data"@en-us ;
+    skos:prefLabel "Programming RDF data"@en-us ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .
 
 pet:ld29 a skos:Concept ;
-    skos:prefLabel "Querying Linked Data"@en-us ;
+    skos:prefLabel "Querying RDF data"@en-us ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .
 
 pet:ld30 a skos:Concept ;
-    skos:prefLabel "Visualizing Linked Data"@en-us ;
+    skos:prefLabel "Visualizing RDF data"@en-us ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .
 
@@ -206,12 +208,12 @@ pet:ld31 a skos:Concept ;
     skos:inScheme pet: .
 
 pet:ld32 a skos:Concept ;
-    skos:prefLabel "Assessing Linked Data quality"@en-us ;
+    skos:prefLabel "Assessing RDF data quality"@en-us ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .
 
 pet:ld33 a skos:Concept ;
-    skos:prefLabel "Linked Data analytics"@en-us ;
+    skos:prefLabel "RDF data analystics"@en-us ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .  
 
@@ -229,3 +231,13 @@ pet:ld36 a skos:Concept ;
     skos:prefLabel "Linked Data mashups"@en-us ;
     skos:broader pet:ld06 ;
     skos:inScheme pet: .
+    
+pet:ld37 a skos:Concept ;
+    skos:prefLabel "Finding RDF data"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .
+    
+pet:ld38 a skos:Concept ;
+    skos:prefLabel "Manipulating RDF data"@en-us ;
+    skos:broader pet:ld05 ;
+    skos:inScheme pet: .        
