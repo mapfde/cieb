@@ -1,11 +1,10 @@
 ======================================================================
 COMPETENCY INDEX
 
-Fundamentals of Resource Description Framework
-    Identity in RDF
-    RDF data model
-        COMPETENCIES:
-        -- Knows the subject-predicate-object component structure of a triple
+Fundamentals of Resource Description Framework 
+    Identity in RDF 
+    RDF data model 
+        -- Knows the subject-predicate-object component structure of a triple 
         -- Understands the difference between literals and non-literals
         -- Understands that any URI or literal denotes some "thing" in the world 
            whether real, imagined, or conceptual; and, all things are called "resources"
@@ -14,12 +13,11 @@ Fundamentals of Resource Description Framework
         -- Understands the use of datatypes and language tags with literals
         -- Understands blank nodes and their appropriate use
         -- Formulates QNames as a shorthand mechanism in writing prefixes for long URIs 
-             BENCHMARKS:
-             -- Uses prefixes for URIs in RDF specifications and data
+            BENCHMARKS:
+            -- Uses prefixes for URIs in RDF specifications and data
         -- Understands the concept of the named graph
     Related data models
     RDF serialization
-        COMPETENCIES:
         -- Understands that RDF serializations and graphical representations 
            are just multiple alternative ways to write down, or "encode", a set 
            of triples, i.e., the "RDF graph"
