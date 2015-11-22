@@ -1,3 +1,5 @@
+Superseded -- see https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex-draft.md
+
 ----------------------------------------------------------------------
 TOPIC CLUSTER: Fundamentals of Linked Data 
     
