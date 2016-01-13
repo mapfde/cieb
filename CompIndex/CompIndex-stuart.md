@@ -1,16 +1,10 @@
 COMPETENCY INDEX
 
-2016-01-13: Tom penciled in draft competencies selected from a spreadsheet authored
-in 2014-2015 by Stuart -- see 
-https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_updates.xlsx
-
     [A] Fundamentals of Resource Description Framework 
         [B] Identity in RDF 
-            [C] Knows that anything can be named with URIs, such as agents, places, events, 
-                artifacts, and concepts
         [B] RDF data model 
             [C] Knows the subject-predicate-object component structure of a triple 
-            [C] Understands the difference between literals and non-literal resources
+            [C] Understands the difference between literals and non-literals
             [C] Understands that any URI or literal denotes some "thing" in the world 
                whether real, imagined, or conceptual; and, all things are called "resources"
             [C] Understands that "resources" may be divided into groups called classes and 
@@ -20,76 +14,36 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Formulates QNames as a shorthand mechanism in writing prefixes for long URIs 
                 [D] Uses prefixes for URIs in RDF specifications and data
             [C] Understands the concept of the named graph
-            [C] Can articulate differences between the RDF abstract data model and the XML 
-                and relational models
-            [C] Understands the use of RDF Schema to create and interpret RDF vocabularies
-            [C] Understands the RDF abstract data model as a directed labeled graph
-            [C] Knows graphic conventions for depicting RDF-based models
-                [D] Can use graphing or modeling software to share those models with others
         [B] Related data models
-            [C] Distinguishes validation schemas (eg, XML) and inferencing schemas (eg, RDF Schema)
-                and their respective benefits
-            [C] Differentiates hierarchical document models (eg, XML) and graph models (RDF)
         [B] RDF serialization
-            [C] Distinguishes the RDF abstract data model and its concrete serializations
-                [D] Expresses RDF data in Turtle syntax
-                [D] Expresses RDF data in RDFa syntax
-            [C] Understands RDF serializations and graphical representations as just
-                alternative ways to encode a given set of triples (RDF graph)
-                [D] Uses tools to convert RDF data between different serializations
+            [C] Understands that RDF serializations and graphical representations 
+               are just multiple alternative ways to write down, or "encode", a set 
+               of triples, i.e., the "RDF graph"
+
     [A] Fundamentals of Linked Data
         [B] Web technology
         [B] Linked data principles
         [B] Linked Data architectures and services
         [B] Linked Data policies and best practices
-                [D] Participates in developing standards and best practice with 
-                    relevant organizations such as W3C
         [B] Non-RDF Linked Data
 
-    [A] RDF vocabularies and application profiles
-        [B] Finding RDF-based vocabularies
+    [A] RDF vocabularies
+        [B] Finding RDF vocabularies
             [C] Retrieves and accesses RDF data from the "open Web"
-        [B] Designing RDF-based vocabularies
-            [C] Uses RDF Schema to express semantic relationships within a vocabulary
-                [D] Correctly uses sub-class relationships in support of inference
-                [D] Correctly uses sub-property relationships in support of inference
-            [C] Knows naming conventions for properties and classes
-            [C] Reuses published properties and classes where available
-                [D] Uses portals and registries to find existing RDF-based vocabularies
-            [C] Coins namespace URIs, as needed, for any new properties and classes required
-                [D] Drafts a policy for coining URIs for properties and classes
-                [D] Chooses "hash"- or "slash"-based URI patterns based on requirements
         [B] Maintaining RDF vocabularies
-            [C] Understands policy options for persistence guarantees
-                [D] Can draft a persistence policy
         [B] Versioning RDF vocabularies
-            [C] Knows technical options for the form, content, and granularity of versions
-                [D] Can express and justify a versioning policy
         [B] Publishing RDF vocabularies
-            [C] Understands the typical publication formats for RDF vocabularies, their 
-                relative advantages, and options for content negotiation
         [B] Mapping RDF vocabularies
         [B] RDF application profiles
-            [C] Identifies real-world entities in an application domain as requirements
-                for RDF classes
-            [C] Identifies resource attributes and relationships between domain entities as 
-                requirements for RDF properties
-            [C] Investigates how others have modeled the same or similar application domains
-                [D] Communicates a domain model with words and diagrams
-                [D] Participates in the social process of developing application profiles
 
     [A] Creating and transforming RDF Data
         [B] Managing identifiers (URIs)
         [B] Creating RDF data
             [C] Structures data using blank nodes where appropriate    
-            [C] Generates RDF data from non-RDF sources
         [B] Versioning RDF data
         [B] RDF data provenance
         [B] Cleaning and reconciling RDF data
-            [C] Cleans a dataset by finding and correcting errors, removing duplicates
-                and unwanted data
         [B] Mapping and enriching RDF data
-            [C] Uses available resources for named entity recognition, extraction, and reconciliation
 
     [A] Interacting with RDF Data
         [B] Finding RDF Data
@@ -201,10 +155,6 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
                 exact format required by a third party tools and APIs    
         [B] Reasoning over RDF
-            [C] Understands the principles and practice of inferencing
-                [D] Uses common entailment regimes and understands their uses
-            [C] Understands the role of formally declared domains and ranges for inferencing
-            [C] Understands how reasoning can be used for integrating diverse datasets
         [B] Assessing RDF data quality
         [B] RDF Data analytics
             [C] Uses available ontology browsing tools to explore the ontologies used
