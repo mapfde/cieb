@@ -57,11 +57,11 @@ COMPETENCY INDEX
         [B] Querying RDF Data
             [C] Understands that a SPARQL query matches an RDF graph against a pattern 
                 of triples with fixed and variable values
-?           [C] Understands the role of punctuation in a SPARQL query
-?               [D] Uses angle brackets for delimiting URIs
-?               [D] Uses question marks for indicating variables
-?               [D] Uses PREFIX for URIs in SPARQL queries
-?           [C] Formulates advanced queries on data containing blank nodes
+            [C] Understands the basic syntax of a SPARQL query
+                [D] Uses angle brackets for delimiting URIs
+                [D] Uses question marks for indicating variables
+                [D] Uses PREFIX for base URIs
+            [C] Formulates advanced queries on data containing blank nodes
             [C] Demonstrates a working knowledge of the forms and uses of 
                 SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK)
                 [D] Uses the SELECT clause to identify the variables to appear 
@@ -119,10 +119,10 @@ COMPETENCY INDEX
                formulates queries using the GRAPH clause
                 [D] Formulates advanced queries using FROM NAMED and GRAPH on local data
                 [D] Formulate advanced queries using FROM NAMED on remote data
-?           [C] Formulate advanced queries using subqueries
-?           [C] Uses a temporary variable to extend a query
-?           [C] Understands the role of Property Paths and how they are formed by
-?               combining predicates with regular expression-like operators
+            [C] Formulate advanced queries using subqueries
+            [C] Uses a temporary variable to extend a query
+            [C] Understands the role of Property Paths and how they are formed by
+                combining predicates with regular expression-like operators
             [C] Understands the concept of Federated Search
                 [D] Formulates advanced queries on a remote SPARQL endpoint using the
                     SERVICE directive
@@ -130,8 +130,8 @@ COMPETENCY INDEX
                     more other SPARQL endpoints
                 [D] Pulls data from a different SPARQL endpoints in one single query
                     using the SERVICE directive
-?           [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
-?               exact format required by a third party tools and APIs
+            [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
+                exact format required by a third party tools and APIs
             [C] Formulates queries using FROM with URLs and local files
             [C] Reads and understands high-level descriptions of the classes and
                 properties of a dataset in order to write queries 
