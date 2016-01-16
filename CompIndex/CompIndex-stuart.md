@@ -1,9 +1,5 @@
 COMPETENCY INDEX
 
-2016-01-13: Tom penciled in draft competencies selected from a spreadsheet authored
-in 2014-2015 by Stuart -- see 
-https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_updates.xlsx
-
     [A] Fundamentals of Resource Description Framework 
         [B] Identity in RDF 
             [C] Knows that anything can be named with URIs, such as agents, places, events, 
@@ -48,6 +44,7 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
 
     [A] RDF vocabularies and application profiles
         [B] Finding RDF-based vocabularies
+            [C] Uses available resources for named entity recognition, extraction, and reconciliation
             [C] Retrieves and accesses RDF data from the "open Web"
         [B] Designing RDF-based vocabularies
             [C] Uses RDF Schema to express semantic relationships within a vocabulary
@@ -89,7 +86,6 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Cleans a dataset by finding and correcting errors, removing duplicates
                 and unwanted data
         [B] Mapping and enriching RDF data
-            [C] Uses available resources for named entity recognition, extraction, and reconciliation
 
     [A] Interacting with RDF Data
         [B] Finding RDF Data
@@ -180,6 +176,10 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
                     more other SPARQL endpoints
                 [D] Pulls data from a different SPARQL endpoints in one single query
                     using the SERVICE directive
+            [C] Understands the principles and practice of inferencing
+                [D] Uses common entailment regimes and understands their uses
+            [C] Understands the role of formally declared domains and ranges for inferencing
+            [C] Understands how reasoning can be used for integrating diverse datasets
             [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
                 exact format required by a third party tools and APIs
             [C] Formulates queries using FROM with URLs and local files
@@ -201,10 +201,6 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
                 exact format required by a third party tools and APIs    
         [B] Reasoning over RDF
-            [C] Understands the principles and practice of inferencing
-                [D] Uses common entailment regimes and understands their uses
-            [C] Understands the role of formally declared domains and ranges for inferencing
-            [C] Understands how reasoning can be used for integrating diverse datasets
         [B] Assessing RDF data quality
         [B] RDF Data analytics
             [C] Uses available ontology browsing tools to explore the ontologies used
