@@ -2,6 +2,8 @@ COMPETENCY INDEX
 
     [A] Fundamentals of Resource Description Framework 
         [B] Identity in RDF 
+            [C] Knows that anything can be named with URIs, such as agents, places, events, 
+                artifacts, and concepts
         [B] RDF data model 
             [C] Knows the subject-predicate-object component structure of a triple 
             [C] Understands the difference between literals and non-literals
@@ -14,35 +16,76 @@ COMPETENCY INDEX
             [C] Formulates QNames as a shorthand mechanism in writing prefixes for long URIs 
                 [D] Uses prefixes for URIs in RDF specifications and data
             [C] Understands the concept of the named graph
+            [C] Can articulate differences between the RDF abstract data model and the XML 
+                and relational models
+            [C] Understands the use of RDF Schema to create and interpret RDF vocabularies
+            [C] Understands the RDF abstract data model as a directed labeled graph
+            [C] Knows graphic conventions for depicting RDF-based models
+                [D] Can use graphing or modeling software to share those models with others
         [B] Related data models
+            [C] Distinguishes validation schemas (eg, XML) and inferencing schemas (eg, RDF Schema)
+                and their respective benefits
+            [C] Differentiates hierarchical document models (eg, XML) and graph models (RDF)
         [B] RDF serialization
-            [C] Understands that RDF serializations and graphical representations 
-               are just multiple alternative ways to write down, or "encode", a set 
-               of triples, i.e., the "RDF graph"
-
+            [C] Distinguishes the RDF abstract data model and its concrete serializations
+                [D] Expresses RDF data in Turtle syntax
+                [D] Expresses RDF data in RDFa syntax
+            [C] Understands RDF serializations and graphical representations as just
+                alternative ways to encode a given set of triples (RDF graph)
+                [D] Uses tools to convert RDF data between different serializations
     [A] Fundamentals of Linked Data
         [B] Web technology
         [B] Linked data principles
         [B] Linked Data architectures and services
         [B] Linked Data policies and best practices
+            [C] Knows the primary organizations related to Linked Data standardization
+                [D] Participates in developing standards and best practice with 
+                    relevant organizations such as W3C
         [B] Non-RDF Linked Data
 
-    [A] RDF vocabularies
-        [B] Finding RDF vocabularies
+    [A] RDF vocabularies and application profiles
+        [B] Finding RDF-based vocabularies
+            [C] Uses available resources for named entity recognition, extraction, and reconciliation
             [C] Retrieves and accesses RDF data from the "open Web"
+        [B] Designing RDF-based vocabularies
+            [C] Uses RDF Schema to express semantic relationships within a vocabulary
+                [D] Correctly uses sub-class relationships in support of inference
+                [D] Correctly uses sub-property relationships in support of inference
+            [C] Knows naming conventions for properties and classes
+            [C] Reuses published properties and classes where available
+                [D] Uses portals and registries to find existing RDF-based vocabularies
+            [C] Coins namespace URIs, as needed, for any new properties and classes required
+                [D] Drafts a policy for coining URIs for properties and classes
+                [D] Chooses "hash"- or "slash"-based URI patterns based on requirements
         [B] Maintaining RDF vocabularies
+            [C] Understands policy options for persistence guarantees
+                [D] Can draft a persistence policy
         [B] Versioning RDF vocabularies
+            [C] Knows technical options for the form, content, and granularity of versions
+                [D] Can express and justify a versioning policy
         [B] Publishing RDF vocabularies
+            [C] Understands the typical publication formats for RDF vocabularies, their 
+                relative advantages, and options for content negotiation
         [B] Mapping RDF vocabularies
         [B] RDF application profiles
+            [C] Identifies real-world entities in an application domain as requirements
+                for RDF classes
+            [C] Identifies resource attributes and relationships between domain entities as 
+                requirements for RDF properties
+            [C] Investigates how others have modeled the same or similar application domains
+                [D] Communicates a domain model with words and diagrams
+                [D] Participates in the social process of developing application profiles
 
     [A] Creating and transforming RDF Data
         [B] Managing identifiers (URIs)
         [B] Creating RDF data
             [C] Structures data using blank nodes where appropriate    
+            [C] Generates RDF data from non-RDF sources
         [B] Versioning RDF data
         [B] RDF data provenance
         [B] Cleaning and reconciling RDF data
+            [C] Cleans a dataset by finding and correcting errors, removing duplicates
+                and unwanted data
         [B] Mapping and enriching RDF data
 
     [A] Interacting with RDF Data
@@ -55,16 +98,13 @@ COMPETENCY INDEX
             [C] Registers datasets with relevant services for discovery        
         [B] Programming RDF Data
         [B] Querying RDF Data
-            [C] Understands the "basic graph pattern" (BGP) of a SPARQL query as a 
-                set of triple patterns.
-            [C] Understands that the most basic SPARQL query matches the triples of 
-                an RDF graph against a triple pattern consisting of fixed and variable 
-                values
-            [C] Understands the role of punctuation in a SPARQL query
+            [C] Understands that a SPARQL query matches an RDF graph against a pattern 
+                of triples with fixed and variable values
+            [C] Understands the basic syntax of a SPARQL query
                 [D] Uses angle brackets for delimiting URIs
                 [D] Uses question marks for indicating variables
+                [D] Uses PREFIX for base URIs
             [C] Formulates advanced queries on data containing blank nodes
-            [C] Uses PREFIX for URIs in SPARQL queries
             [C] Demonstrates a working knowledge of the forms and uses of 
                 SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK)
                 [D] Uses the SELECT clause to identify the variables to appear 
@@ -73,8 +113,7 @@ COMPETENCY INDEX
                     against the graph data
                 [D] Uses variables in SELECT and WHERE clauses to yield a table
                     of results
-                [D] Uses ASK for a simple True/False result in testing whether
-                    a query pattern has a solution
+                [D] Uses ASK for a True/False test for a match to a query pattern
                 [D] Uses DESCRIBE to extract a single graph containing RDF data
                     about resources
                 [D] Uses CONSTRUCT to extract and transform results into a single
@@ -127,13 +166,17 @@ COMPETENCY INDEX
             [C] Uses a temporary variable to extend a query
             [C] Understands the role of Property Paths and how they are formed by
                 combining predicates with regular expression-like operators
-            [C] Understands how to perform Federated Searches
+            [C] Understands the concept of Federated Search
                 [D] Formulates advanced queries on a remote SPARQL endpoint using the
                     SERVICE directive
                 [D] Uses federated query to query over a local graph store and one or
                     more other SPARQL endpoints
                 [D] Pulls data from a different SPARQL endpoints in one single query
                     using the SERVICE directive
+            [C] Understands the principles and practice of inferencing
+                [D] Uses common entailment regimes and understands their uses
+            [C] Understands the role of formally declared domains and ranges for inferencing
+            [C] Understands how reasoning can be used for integrating diverse datasets
             [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
                 exact format required by a third party tools and APIs
             [C] Formulates queries using FROM with URLs and local files
