@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 now = Time.now.strftime("%Y-%m-%d")
+input = 'CompIndex-test.txt'
+output = 'CompIndex-test2.md'
 header = %(
 # LD4PE Competency Index
 
@@ -15,8 +17,8 @@ See also [http://explore.dublincore.net/comp-index/](http://explore.dublincore.n
 -----------------------------------\n
 )
 
-ci_raw = IO.readlines('CompIndex-test.txt')
-File.open('CompIndex-test2.md', 'w') do |file|
+ci_raw = IO.readlines(input)
+File.open(output, 'w') do |file|
   file.write(header)
   ci_raw.each do |line| 
     case line
