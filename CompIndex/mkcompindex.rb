@@ -1,8 +1,27 @@
 #!/usr/bin/env ruby
 
+require 'optparse'
+
+options = {}
+option_parser = OptionParser.new do |opts|
+
+  opts.on("--source SOURCEFILE") do |source|
+    options[:source] = source
+  end
+
+  opts.on("--target TARGETFILE") do |target|
+    options[:target] = target
+  end
+
+end
+
+option_parser.parse!
+puts "generating #{options[:target]} from #{options[:source]}"
+
 now = Time.now.strftime("%Y-%m-%d")
-input = 'CompIndex-test.txt'
-output = 'CompIndex-test2.md'
+input  = options[:source]
+output = options[:target]
+
 header = %(
 # LD4PE Competency Index
 
