@@ -1,3 +1,3 @@
-CompIndex-tested.md: CompIndex-test.txt
-	ruby mkcompindex.rb
-	pandoc CompIndex-test2.md -o CompIndex-test2.docx
+CompIndex-generated.md: CompIndex.txt
+	ruby mkcompindex.rb --source 'CompIndex.txt' --target 'CompIndex-generated.md'
+	pandoc CompIndex-generated.md -o CompIndex-generated.docx
