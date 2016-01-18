@@ -225,6 +225,3 @@ COMPETENCY INDEX
         [B] Linked Data application architecture
         [B] Linked Data mashups
 
-
-
-
