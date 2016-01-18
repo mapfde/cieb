@@ -113,7 +113,8 @@ COMPETENCY INDEX
                     against the graph data
                 [D] Uses variables in SELECT and WHERE clauses to yield a table
                     of results
-                [D] Uses ASK for a True/False test for a match to a query pattern
+                [D] Uses ASK for a simple True/False result in testing whether
+                    a query pattern has a solution
                 [D] Uses DESCRIBE to extract a single graph containing RDF data
                     about resources
                 [D] Uses CONSTRUCT to extract and transform results into a single
@@ -203,14 +204,21 @@ COMPETENCY INDEX
             [C] Uses available ontology browsing tools to explore the ontologies used
                 in a particular dataset    
         [B] Manipulating RDF Data
-            [C] Understands the SPARQL Graph Store HTTP protocol for editing 
-                graphs on remote servers
-            [C] Uses SPARQL to inserting, deleting, modifying RDF data
-                [D] Uses POST to add triples to an existing graph
+            [C] Knows the SPARQL 1.1 Update language for updating, creating, and 
+                removing RDF graphs in a Graph Store
+                [D] Uses INSERT to add triples
+                [D] Uses DELETE to remove triples
+                [D] Uses the INSERT/DELETE operation to update triples
+                [D] Uses a CONSTRUCT query to preview changes before executing an INSERT/DELETE operation
+            [C] Knows the SPARQL 1.1 Graph Store HTTP protocol for updating
+                graphs on a Web server (in arguably "RESTful" style)
                 [D] Uses GET to retrieve triples from a default graph or a named graph
                 [D] Uses PUT to insert set of triples into a new graph (or replace an existing graph)
                 [D] Uses DELETE to remove a graph
+                [D] Uses POST to add triples to an existing graph
                 [D] Uses proper syntax to request specific media types, such as Turtle              
+            [C] Understands the difference between SQL query language (which operates 
+                on database tables) and SPARQL (which operates on RDF graphs)
 
     [A] Creating Linked Data applications
         [B] Storing RDF data
