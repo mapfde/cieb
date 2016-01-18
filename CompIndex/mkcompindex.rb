@@ -26,6 +26,7 @@ header = %(
 # LD4PE Competency Index
 
 #{now}
+
 * generated [Compindex-generated.md](https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex-generated.md) from [Compindex.txt](https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex.txt)
 * converted [Compindex-generated.md](https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex-generated.md) into GDOC (via DOCX) for collecting comments
 * see latest published version at [http://explore.dublincore.net/comp-index/](http://explore.dublincore.net/comp-index/) (may be out-of-date)\n
