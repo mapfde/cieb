@@ -34,8 +34,8 @@ header = %(
 -----------------------------------\n
 ### Topic cluster
    * Topic
-      * Competency: a tweet-length phrase expressing a concept or skill to be learned
-         * Benchmark: specific task that demonstrates competency\n
+      * Competency: Tweet-length assertion of knowledge, skill, or habit of mind
+         * Benchmark: Action demonstrating accomplishment in related competencies\n
 -----------------------------------\n
 )
 
