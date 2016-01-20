@@ -1,7 +1,7 @@
 
 # LD4PE Competency Index
 
-2016-01-18
+2016-01-20
 
 * generated [Compindex-generated.md](https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex-generated.md) from [Compindex.txt](https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex.txt)
 * converted [Compindex-generated.md](https://github.com/ld4pe/cieb/blob/master/CompIndex/CompIndex-generated.md) into GDOC (via DOCX) for collecting comments
@@ -12,8 +12,8 @@
 
 ### Topic cluster
    * Topic
-      * Competency: a tweet-length phrase expressing a concept or skill to be learned
-         * Benchmark: specific task that demonstrates competency
+      * Competency: Tweet-length assertion of knowledge, skill, or habit of mind
+         * Benchmark: Action demonstrating accomplishment in related competencies
 
 -----------------------------------
 
@@ -24,27 +24,27 @@
       * Knows that anything can be named with URIs, such as agents, places, events, artifacts, and concepts
    * RDF data model 
       * Knows the subject-predicate-object component structure of a triple 
-      * Understands the difference between literals and non-literals
-      * Understands that any URI or literal denotes some "thing" in the world whether real, imagined, or conceptual; and, all things are called "resources"
-      * Understands that "resources" may be divided into groups called classes and the members of a class are known as instances of the class (rdf:type)
+      * Understands that URIs and literals denote things in the world ("resources") real, imagined, or conceptual
+      * Understands the difference between literals and non-literal resources
+      * Understands that resources are declared members (instances) of classes using the property rdf:type
       * Understands the use of datatypes and language tags with literals
-      * Understands blank nodes and their appropriate use
-      * Formulates QNames as a shorthand mechanism in writing prefixes for long URIs 
+      * Understands blank nodes and their uses
+      * Understands that QNames define shorthand prefixes for long URIs 
          * Uses prefixes for URIs in RDF specifications and data
       * Understands the concept of the named graph
-      * Can articulate differences between the RDF abstract data model and the XML and relational models
+      * Articulates differences between the RDF abstract data model and the XML and relational models
       * Understands the use of RDF Schema to create and interpret RDF vocabularies
       * Understands the RDF abstract data model as a directed labeled graph
       * Knows graphic conventions for depicting RDF-based models
          * Can use graphing or modeling software to share those models with others
    * Related data models
-      * Distinguishes validation schemas (eg, XML) and inferencing schemas (eg, RDF Schema) and their respective benefits
+      * Grasps essential differences between schemas for syntactic validation (e.g., XML) and for inferencing (RDF Schema)
       * Differentiates hierarchical document models (eg, XML) and graph models (RDF)
    * RDF serialization
-      * Distinguishes the RDF abstract data model and its concrete serializations
+      * Distinguishes the RDF abstract data model and concrete serializations of RDF data
          * Expresses RDF data in Turtle syntax
          * Expresses RDF data in RDFa syntax
-      * Understands RDF serializations and graphical representations as just alternative ways to encode a given set of triples (RDF graph)
+      * Understands RDF serializations as interchangeable encodings of a given set of triples (RDF graph)
          * Uses tools to convert RDF data between different serializations
 
 ### Fundamentals of Linked Data
@@ -60,13 +60,12 @@
 ### RDF vocabularies and application profiles
 
    * Finding RDF-based vocabularies
-      * Uses available resources for named entity recognition, extraction, and reconciliation
       * Retrieves and accesses RDF data from the "open Web"
    * Designing RDF-based vocabularies
       * Uses RDF Schema to express semantic relationships within a vocabulary
          * Correctly uses sub-class relationships in support of inference
          * Correctly uses sub-property relationships in support of inference
-      * Knows naming conventions for properties and classes
+      * Knows the naming conventions for RDF properties and classes
       * Reuses published properties and classes where available
          * Uses portals and registries to find existing RDF-based vocabularies
       * Coins namespace URIs, as needed, for any new properties and classes required
@@ -79,7 +78,8 @@
       * Knows technical options for the form, content, and granularity of versions
          * Can express and justify a versioning policy
    * Publishing RDF vocabularies
-      * Understands the typical publication formats for RDF vocabularies, their relative advantages, and options for content negotiation
+      * Understands the typical publication formats for RDF vocabularies and their relative advantages
+      * Understands the purpose of publishing RDF vocabularies in multiple formats using content negotiation
    * Mapping RDF vocabularies
    * RDF application profiles
       * Identifies real-world entities in an application domain as requirements for RDF classes
@@ -99,6 +99,7 @@
    * Cleaning and reconciling RDF data
       * Cleans a dataset by finding and correcting errors, removing duplicates and unwanted data
    * Mapping and enriching RDF data
+      * Uses available resources for named entity recognition, extraction, and reconciliation
 
 ### Interacting with RDF Data
 
@@ -120,7 +121,7 @@
          * Uses the SELECT clause to identify the variables to appear in a table of query results
          * Uses the WHERE clause provide the graph pattern to match against the graph data
          * Uses variables in SELECT and WHERE clauses to yield a table of results
-         * Uses ASK for a simple True/False result in testing whether a query pattern has a solution
+         * Uses ASK for a True/False test for a match to a query pattern
          * Uses DESCRIBE to extract a single graph containing RDF data about resources
          * Uses CONSTRUCT to extract and transform results into a single RDF graph specified by a graph template
       * Understands how to combine and filter graph patterns using operators such as UNION, OPTIONAL, FILTER, and MINUS
@@ -154,10 +155,6 @@
          * Formulates advanced queries on a remote SPARQL endpoint using the SERVICE directive
          * Uses federated query to query over a local graph store and one or more other SPARQL endpoints
          * Pulls data from a different SPARQL endpoints in one single query using the SERVICE directive
-      * Understands the principles and practice of inferencing
-         * Uses common entailment regimes and understands their uses
-      * Understands the role of formally declared domains and ranges for inferencing
-      * Understands how reasoning can be used for integrating diverse datasets
       * Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by a third party tools and APIs
       * Formulates queries using FROM with URLs and local files
       * Reads and understands high-level descriptions of the classes and properties of a dataset in order to write queries 
@@ -173,22 +170,24 @@
          * Uses Google FusionTables to create maps and charts
       * Distills results taken from large datasets so that visualizations are human-friendly
       * Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by a third party tools and APIs    
-   * Reasoning over RDF
+   * Reasoning over RDF data
+      * Understands the principles and practice of inferencing
+         * Uses common entailment regimes and understands their uses
+      * Understands the role of formally declared domains and ranges for inferencing
+      * Understands how reasoning can be used for integrating diverse datasets
    * Assessing RDF data quality
    * RDF Data analytics
       * Uses available ontology browsing tools to explore the ontologies used in a particular dataset    
    * Manipulating RDF Data
       * Knows the SPARQL 1.1 Update language for updating, creating, and removing RDF graphs in a Graph Store
-         * Uses INSERT to add triples
-         * Uses DELETE to remove triples
-         * Uses the INSERT/DELETE operation to update triples
+         * Uses INSERT/DELETE to update triples
          * Uses a CONSTRUCT query to preview changes before executing an INSERT/DELETE operation
-      * Knows the SPARQL 1.1 Graph Store HTTP protocol for updating graphs on a Web server (in arguably "RESTful" style)
+      * Knows the SPARQL 1.1 Graph Store HTTP protocol for updating graphs on a Web server (in "RESTful" style)
          * Uses GET to retrieve triples from a default graph or a named graph
          * Uses PUT to insert set of triples into a new graph (or replace an existing graph)
          * Uses DELETE to remove a graph
          * Uses POST to add triples to an existing graph
-         * Uses proper syntax to request specific media types, such as Turtle              
+         * Uses proper syntax to request specific media types, such as Turtle
       * Understands the difference between SQL query language (which operates on database tables) and SPARQL (which operates on RDF graphs)
 
 ### Creating Linked Data applications
