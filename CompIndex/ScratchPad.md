@@ -2,3 +2,6 @@
 
 2016-01-31 Tom will ask Adam Rabinowitz to propose competencies related to
 expressing time periods in Linked Data.
+
+2016-02-16 Marcia has suggested we create a section about controlled vocabularies
+as Linked Data and specifically about SKOS.  I will propose some competencies!
