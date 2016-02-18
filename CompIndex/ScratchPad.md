@@ -1,13 +1,20 @@
-2016-01-29 TomB asked Tom Johnson to propose competencies related to Ruby/RDF.
-
-2016-01-31 Tom will ask Adam Rabinowitz to propose competencies related to
-expressing time periods in Linked Data.
-
-2016-02-16 Marcia has suggested we create a section about controlled vocabularies
-as Linked Data and specifically about SKOS.  I will propose some competencies!
-
 Gaps
 
--- Controlled vocabularies and thesauri as Linked Data (basically, SKOS) - Tom  
-   will propose some competencies
+- Ruby libraries for RDF.  2016-01-29 TomB asked Tom Johnson to propose competencies;
+  will ping.
+
+- Python libraries for RDF (RDFLib). 2016-02-16 Sean is working on this.
+
+- Temporally indexed data.  2016-01-31 Tom asked Adam Rabinowitz; will ping.
+
+- SKOS and controlled vocabularies and thesauri as Linked Data.
+  Tom will propose some competencies.
+
+- Schema.org.
+
+- Seth and Ruben (Stuart?)
+
+- History of RDF, SPARQL, etc?
+
+- JSON-LD? (Serializations as benchmarks?)
 
