@@ -1,16 +1,12 @@
 COMPETENCY INDEX
 
-2016-01-13: Tom penciled in draft competencies selected from a spreadsheet authored
-in 2014-2015 by Stuart -- see 
-https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_updates.xlsx
-
     [A] Fundamentals of Resource Description Framework 
         [B] Identity in RDF 
             [C] Knows that anything can be named with URIs, such as agents, places, events, 
                 artifacts, and concepts
         [B] RDF data model 
             [C] Knows the subject-predicate-object component structure of a triple 
-            [C] Understands the difference between literals and non-literal resources
+            [C] Understands the difference between literals and non-literals
             [C] Understands that any URI or literal denotes some "thing" in the world 
                whether real, imagined, or conceptual; and, all things are called "resources"
             [C] Understands that "resources" may be divided into groups called classes and 
@@ -42,12 +38,14 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
         [B] Linked data principles
         [B] Linked Data architectures and services
         [B] Linked Data policies and best practices
+            [C] Knows the primary organizations related to Linked Data standardization
                 [D] Participates in developing standards and best practice with 
                     relevant organizations such as W3C
         [B] Non-RDF Linked Data
 
     [A] RDF vocabularies and application profiles
         [B] Finding RDF-based vocabularies
+            [C] Uses available resources for named entity recognition, extraction, and reconciliation
             [C] Retrieves and accesses RDF data from the "open Web"
         [B] Designing RDF-based vocabularies
             [C] Uses RDF Schema to express semantic relationships within a vocabulary
@@ -89,7 +87,6 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Cleans a dataset by finding and correcting errors, removing duplicates
                 and unwanted data
         [B] Mapping and enriching RDF data
-            [C] Uses available resources for named entity recognition, extraction, and reconciliation
 
     [A] Interacting with RDF Data
         [B] Finding RDF Data
@@ -101,16 +98,13 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Registers datasets with relevant services for discovery        
         [B] Programming RDF Data
         [B] Querying RDF Data
-            [C] Understands the "basic graph pattern" (BGP) of a SPARQL query as a 
-                set of triple patterns.
-            [C] Understands that the most basic SPARQL query matches the triples of 
-                an RDF graph against a triple pattern consisting of fixed and variable 
-                values
-            [C] Understands the role of punctuation in a SPARQL query
+            [C] Understands that a SPARQL query matches an RDF graph against a pattern 
+                of triples with fixed and variable values
+            [C] Understands the basic syntax of a SPARQL query
                 [D] Uses angle brackets for delimiting URIs
                 [D] Uses question marks for indicating variables
+                [D] Uses PREFIX for base URIs
             [C] Formulates advanced queries on data containing blank nodes
-            [C] Uses PREFIX for URIs in SPARQL queries
             [C] Demonstrates a working knowledge of the forms and uses of 
                 SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK)
                 [D] Uses the SELECT clause to identify the variables to appear 
@@ -173,13 +167,17 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Uses a temporary variable to extend a query
             [C] Understands the role of Property Paths and how they are formed by
                 combining predicates with regular expression-like operators
-            [C] Understands how to perform Federated Searches
+            [C] Understands the concept of Federated Search
                 [D] Formulates advanced queries on a remote SPARQL endpoint using the
                     SERVICE directive
                 [D] Uses federated query to query over a local graph store and one or
                     more other SPARQL endpoints
                 [D] Pulls data from a different SPARQL endpoints in one single query
                     using the SERVICE directive
+            [C] Understands the principles and practice of inferencing
+                [D] Uses common entailment regimes and understands their uses
+            [C] Understands the role of formally declared domains and ranges for inferencing
+            [C] Understands how reasoning can be used for integrating diverse datasets
             [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
                 exact format required by a third party tools and APIs
             [C] Formulates queries using FROM with URLs and local files
@@ -201,29 +199,29 @@ https://github.com/ld4pe/cieb/blob/master/calls/2016-01-15.ld4pe-transition_ci_u
             [C] Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the
                 exact format required by a third party tools and APIs    
         [B] Reasoning over RDF
-            [C] Understands the principles and practice of inferencing
-                [D] Uses common entailment regimes and understands their uses
-            [C] Understands the role of formally declared domains and ranges for inferencing
-            [C] Understands how reasoning can be used for integrating diverse datasets
         [B] Assessing RDF data quality
         [B] RDF Data analytics
             [C] Uses available ontology browsing tools to explore the ontologies used
                 in a particular dataset    
         [B] Manipulating RDF Data
-            [C] Understands the SPARQL Graph Store HTTP protocol for editing 
-                graphs on remote servers
-            [C] Uses SPARQL to inserting, deleting, modifying RDF data
-                [D] Uses POST to add triples to an existing graph
+            [C] Knows the SPARQL 1.1 Update language for updating, creating, and 
+                removing RDF graphs in a Graph Store
+                [D] Uses INSERT to add triples
+                [D] Uses DELETE to remove triples
+                [D] Uses the INSERT/DELETE operation to update triples
+                [D] Uses a CONSTRUCT query to preview changes before executing an INSERT/DELETE operation
+            [C] Knows the SPARQL 1.1 Graph Store HTTP protocol for updating
+                graphs on a Web server (in arguably "RESTful" style)
                 [D] Uses GET to retrieve triples from a default graph or a named graph
                 [D] Uses PUT to insert set of triples into a new graph (or replace an existing graph)
                 [D] Uses DELETE to remove a graph
+                [D] Uses POST to add triples to an existing graph
                 [D] Uses proper syntax to request specific media types, such as Turtle              
+            [C] Understands the difference between SQL query language (which operates 
+                on database tables) and SPARQL (which operates on RDF graphs)
 
     [A] Creating Linked Data applications
         [B] Storing RDF data
         [B] Linked Data application architecture
         [B] Linked Data mashups
-
-
-
 
