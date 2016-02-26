@@ -1,0 +1,49 @@
+B Querying RDF Data
+C Understands the "basic graph pattern" (BGP) of a SPARQL query as a set of triple patterns
+C Understands that the most basic SPARQL query matches the triples of an RDF graph against a triple pattern consisting of fixed and variable values
+C Understands the role of punctuation in a SPARQL query
+D Uses angle brackets for delimiting URIs
+D Uses question marks for indicating variables
+C Formulates advanced queries on data containing blank nodes
+C Uses PREFIX for URIs in SPARQL queries
+C Demonstrates a working knowledge of the forms and uses of SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK)
+C Understands how to combine and filter graph patterns using operators such as UNION, OPTIONAL, FILTER, and MINUS
+C Understands the major SPARQL result set modifiers, e.g., to limit or sort results, or to return distinct results only once
+C Understands the use of SPARQL functions and operators
+C Differentiates between a Default Graph and a Named Graph, and formulates queries using the GRAPH clause
+C Formulate advanced queries using subqueries
+C Uses a temporary variable to extend a query
+C Understands the role of Property Paths and how they are formed by combining predicates with regular expression-like operators
+C Understands how to perform Federated Searches
+C Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by a third party tools and APIs
+C Formulates queries using FROM with URLs and local files
+C Reads and understands high-level descriptions of the classes and properties of a dataset in order to write queries 
+C Uses available tools, servers, and endpoints to issue queries against a dataset 
+B Visualizing RDF Data
+C Uses publicly available tools to visualize data
+D Uses Google FusionTables to create maps and charts
+C Distills results taken from large datasets so that visualizations are human-friendly
+C Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by a third party tools and APIs    
+B Reasoning over RDF data
+B Assessing RDF data quality
+B RDF Data analytics
+C Uses available ontology browsing tools to explore the ontologies used in a particular dataset    
+B Finding RDF data
+C Retrieves and accesses RDF data from the "open Web"
+C Uses relevant resources to discover existing Linked Data datasets
+C Monitors and updates lists which report the status of SPARQL endpoints
+C Uses available vocabularies for dataset description to support their discovery
+C Registers datasets with relevant services for discovery
+B Manipulating RDF Data
+C Uses SPARQL functions to create, read, update and delete RDF data
+D Uses POST to add triples to an existing graph
+D Uses GET to retrieve triples from a default graph or a named graph
+D Uses PUT to insert set of triples into a new graph (or replace an existing graph)
+D Uses DELETE to remove a graph
+D Uses proper syntax to request specific media types, such as Turtle
+C Understands the SPARQL Graph Store HTTP protocol for editing graphs on remote servers
+C Uses SPARQL to insert, delete, and modify RDF data
+A Creating Linked Data applications
+B Storing RDF data
+B Linked Data application architecture
+B Linked Data mashups
