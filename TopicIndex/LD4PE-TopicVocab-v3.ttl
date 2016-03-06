@@ -244,6 +244,6 @@ pet:ld38 a skos:Concept ;
     skos:inScheme pet: . 
     
 pet:ld39 a skos:Concept ;
-    skos:prefLabel "Designing RDF-based Vocabularies"@en-us ;
+    skos:prefLabel "Designing RDF-based vocabularies"@en-us ;
     skos:broader pet:ld03 ;
     skos:inScheme pet: .       
