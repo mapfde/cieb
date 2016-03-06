@@ -12,7 +12,7 @@ pet: a skos:ConceptScheme ;
     dc:description "This vocabulary is used for the topical indexing of learning resources in the DCMI Exploratorium"@en-us ;
     dc:title "Linked Data Subject Vocabulary"@en-us ;
     dcterms:created "2015-09-12"^^xsd:date ;
-    dcterms:modified "2015-10-21"^^xsd:date ;
+    dcterms:modified "2016-03-06"^^xsd:date ;
     skos:hasTopConcept pet:ld01,
         pet:ld02,
         pet:ld03,
@@ -40,7 +40,7 @@ pet:ld02 a skos:Concept ;
         pet:ld15 .
 
 pet:ld03 a skos:Concept ;
-    skos:prefLabel "RDF vocabularies"@en-us ;
+    skos:prefLabel "RDF vocabularies and application profiles"@en-us ;
     skos:inScheme pet: ;
     skos:topConceptOf pet: ;    
     skos:narrower pet:ld16,
@@ -48,7 +48,8 @@ pet:ld03 a skos:Concept ;
         pet:ld18,
         pet:ld19,
         pet:ld20,
-        pet:ld21 .   
+        pet:ld21,
+        pet:ld39 .   
 
 pet:ld04 a skos:Concept ;
     skos:prefLabel "Creating and Transforming Linked Data"@en-us ;
@@ -128,7 +129,7 @@ pet:ld15 a skos:Concept ;
     skos:inScheme pet: .
 
 pet:ld16 a skos:Concept ;
-    skos:prefLabel "Finding RDF vocabularies"@en-us ;
+    skos:prefLabel "Finding RDF-based vocabularies"@en-us ;
     skos:broader pet:ld03 ;
     skos:inScheme pet: .
 
@@ -240,4 +241,9 @@ pet:ld37 a skos:Concept ;
 pet:ld38 a skos:Concept ;
     skos:prefLabel "Manipulating RDF data"@en-us ;
     skos:broader pet:ld05 ;
-    skos:inScheme pet: .        
+    skos:inScheme pet: . 
+    
+pet:ld39 a skos:Concept ;
+    skos:prefLabel "Designing RDF-based Vocabularies"@en-us ;
+    skos:broader pet:ld03 ;
+    skos:inScheme pet: .       
