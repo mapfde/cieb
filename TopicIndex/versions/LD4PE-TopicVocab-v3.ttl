@@ -214,7 +214,7 @@ pet:ld32 a skos:Concept ;
     skos:inScheme pet: .
 
 pet:ld33 a skos:Concept ;
-    skos:prefLabel "RDF data analystics"@en-us ;
+    skos:prefLabel "RDF data analytics"@en-us ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .  
 
