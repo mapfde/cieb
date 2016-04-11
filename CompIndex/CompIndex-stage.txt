@@ -1,6 +1,8 @@
 A Fundamentals of Resource Description Framework 
 B Identity in RDF 
 C Knows that anything can be named with URIs, such as agents, places, events, artifacts, and concepts
+C Understands that a "real-world" thing may need to be named with a URI distinct from the URI for information about that thing
+C Recognizes that URI names are "owned" by the owners of the respective Internet domain
 B RDF data model 
 C Knows the subject-predicate-object component structure of a triple 
 C Understands that URIs and literals denote things in the world ("resources") real, imagined, or conceptual
@@ -21,8 +23,7 @@ C Grasps essential differences between schemas for syntactic validation (e.g., X
 C Differentiates hierarchical document models (eg, XML) and graph models (RDF)
 B RDF serialization
 C Distinguishes the RDF abstract data model and concrete serializations of RDF data
-D Expresses RDF data in Turtle syntax
-D Expresses RDF data in RDFa syntax
+D Expresses data in serializations such as RDF/XML, N-Triples, Turtle, N3, Trig, JSON-LD, and RDFa
 C Understands RDF serializations as interchangeable encodings of a given set of triples (RDF graph)
 D Uses tools to convert RDF data between different serializations
 A Fundamentals of Linked Data
@@ -35,7 +36,6 @@ D Participates in developing standards and best practice with relevant organizat
 B Non-RDF Linked Data
 A RDF vocabularies and application profiles
 B Finding RDF-based vocabularies
-C Retrieves and accesses RDF data from the "open Web"
 B Designing RDF-based vocabularies
 C Uses RDF Schema to express semantic relationships within a vocabulary
 D Correctly uses sub-class relationships in support of inference
@@ -65,7 +65,6 @@ D Participates in the social process of developing application profiles
 A Creating and transforming RDF Data
 B Managing identifiers (URIs)
 B Creating RDF data
-C Structures data using blank nodes where appropriate    
 C Generates RDF data from non-RDF sources
 B Versioning RDF data
 B RDF data provenance
@@ -75,8 +74,8 @@ B Mapping and enriching RDF data
 C Uses available resources for named entity recognition, extraction, and reconciliation
 A Interacting with RDF Data
 B Finding RDF Data
-C Retrieves and accesses RDF data from the "open Web"
-C Uses relevant resources to discover existing Linked Data datasets
+C Knows relevant resources for discovering existing Linked Data datasets
+D Retrieves and accesses RDF data from the "open Web"
 C Monitors and updates lists which report the status of SPARQL endpoints
 C Uses available vocabularies for dataset description to support their discovery
 C Registers datasets with relevant services for discovery        
@@ -88,7 +87,7 @@ D Uses angle brackets for delimiting URIs
 D Uses question marks for indicating variables
 D Uses PREFIX for base URIs
 C Formulates advanced queries on data containing blank nodes
-C Demonstrates a working knowledge of the forms and uses of SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK)
+C Demonstrates a working knowledge of the forms and uses of SPARQL result sets
 D Uses the SELECT clause to identify the variables to appear in a table of query results
 D Uses the WHERE clause provide the graph pattern to match against the graph data
 D Uses variables in SELECT and WHERE clauses to yield a table of results
