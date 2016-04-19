@@ -30,6 +30,8 @@ D Uses tools to convert RDF data between different serializations
 A Fundamentals of Linked Data
 B Web technology
 B Linked data principles
+C Knows Tim Berners-Lee's principles of Linked Data: use URIs to name things, use HTTP URIs that can be resolved to useful information, and create links to URIs of other things
+C Knows the "five stars" of Open Data: put data on the Web, preferably in a structured and preferably non-proprietary format, using URIs to name things, and link to other data
 B Linked Data architectures and services
 B Linked Data policies and best practices
 C Knows the primary organizations related to Linked Data standardization
