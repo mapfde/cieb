@@ -21,6 +21,7 @@ D Can use graphing or modeling software to share those models with others
 B Related data models
 C Grasps essential differences between schemas for syntactic validation (e.g., XML) and for inferencing (RDF Schema)
 C Differentiates hierarchical document models (eg, XML) and graph models (RDF)
+C Understands how an RDF class (naming a set of things in the world) fundamentally differs from an object-oriented programming "class", or "data type", which is used to create objects that bundle "state" (attributes with data values) and "behavior" (functions that operate on state).
 B RDF serialization
 C Distinguishes the RDF abstract data model and concrete serializations of RDF data
 D Expresses data in serializations such as RDF/XML, N-Triples, Turtle, N3, Trig, JSON-LD, and RDFa
