@@ -87,7 +87,7 @@ D Uses angle brackets for delimiting URIs
 D Uses question marks for indicating variables
 D Uses PREFIX for base URIs
 C Formulates advanced queries on data containing blank nodes
-C Demonstrates a working knowledge of the forms and uses of SPARQL result sets
+C Demonstrates a working knowledge of the forms and uses of SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK)
 D Uses the SELECT clause to identify the variables to appear in a table of query results
 D Uses the WHERE clause provide the graph pattern to match against the graph data
 D Uses variables in SELECT and WHERE clauses to yield a table of results
