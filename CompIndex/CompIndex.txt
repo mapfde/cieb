@@ -3,28 +3,26 @@ B Identity in RDF
 C Knows that anything can be named with Uniform Resource Identifiers (URIs), such as agents, places, events, artifacts, and concepts.
 C Understands that a "real-world" thing may need to be named with a URI distinct from the URI for information about that thing.
 C Recognizes that URIs are "owned" by the owners of their respective Internet domains.
+C Knows that Uniform Resource Identifiers, or URIs (1994), include Uniform Resource Locators (URLs, which locate web pages) as well as location-independent identifiers for physical, conceptual, or web resources.
 B RDF data model 
 C Knows the subject-predicate-object component structure of a triple.
 C Understands that URIs and literals denote things in the world ("resources") real, imagined, or conceptual.
 C Understands the difference between literals and non-literal resources.
-C Understands that resources are declared members (instances) of classes using the property rdf:type.
+C Understands that resources are declared to be members (instances) of classes using the property rdf:type.
 C Understands the use of datatypes and language tags with literals.
 C Understands blank nodes and their uses.
 C Understands that QNames define shorthand prefixes for long URIs.
-C Understands a named graph as one of the collection of graphs comprising an RDF dataset, with a graph name unique in the context of that dataset
-C Understands how an RDF class (named set of things) fundamentally differs from an object-oriented programming class, which defines a type of object bundling "state" (attributes with data values) and "behavior" (functions that operate on state).
+C Understands a named graph as one of the collection of graphs comprising an RDF dataset, with a graph name unique in the context of that dataset.
 C Understands how a namespace, informally used in the RDF context for a namespace URI or RDF vocabulary, fundamentally differs from the namespace of data attributes and functions (methods) defined for an object-oriented class.
 D Uses prefixes for URIs in RDF specifications and data.
-C Understands the concept of the named graph.
 C Articulates differences between the RDF abstract data model and the XML and relational models.
-C Understands the use of RDF Schema to create and interpret RDF vocabularies.
 C Understands the RDF abstract data model as a directed labeled graph.
 C Knows graphic conventions for depicting RDF-based models.
 D Can use graphing or modeling software to share those models with others.
 B Related data models
 C Grasps essential differences between schemas for syntactic validation (e.g., XML) and for inferencing (RDF Schema).
 C Differentiates hierarchical document models (eg, XML) and graph models (RDF).
-C Understands how an RDF class (naming a set of things in the world) fundamentally differs from an object-oriented programming "class", or "data type", which is used to create objects that bundle "state" (attributes with data values) and "behavior" (functions that operate on state).
+C Understands how an RDF class (named set of things) fundamentally differs from an object-oriented programming class, which defines a type of object bundling "state" (attributes with data values) and "behavior" (functions that operate on state).
 B RDF serialization
 C Distinguishes the RDF abstract data model and concrete serializations of RDF data.
 D Expresses data in serializations such as RDF/XML, N-Triples, Turtle, N3, Trig, JSON-LD, and RDFa.
@@ -38,7 +36,6 @@ C Knows HyperText Markup Language, or HTML (1991+), as a language for "marking u
 C Knows HTML5 (2014) as a version of HTML extended with support for complex web and mobile applications.
 C Knows Hypertext Transfer Protocol, or HTTP (1991+), as the basic technology for resolving hyperlinks and transferring data on the World Wide Web.
 C Knows Representational State Transfer, or REST (2000) as a software architectural style whereby browsers can exchange data with web servers, typically on the basis of well-known HTTP actions.
-C Knows that Uniform Resource Identifiers, or URIs (1994), include Uniform Resource Locators (URLs, which locate web pages) as well as location-independent identifiers for physical, conceptual, or web resources.
 B Linked data principles
 C Knows Tim Berners-Lee's principles of Linked Data: use URIs to name things, use HTTP URIs that can be resolved to useful information, and create links to URIs of other things.
 C Knows the "five stars" of Open Data: put data on the Web, preferably in a structured and preferably non-proprietary format, using URIs to name things, and link to other data.
@@ -48,13 +45,14 @@ D Participates in developing standards and best practice with relevant organizat
 B Non-RDF Linked Data
 A RDF vocabularies and application profiles
 B Finding RDF-based vocabularies
+C Knows portals and registries for finding RDF-based vocabularies.
+D Finds properties and classes in the Linked Open Vocabularies (LOV) observatory and explores their versions and dependencies.
 B Designing RDF-based vocabularies
 C Uses RDF Schema to express semantic relationships within a vocabulary.
 D Correctly uses sub-class relationships in support of inference.
 D Correctly uses sub-property relationships in support of inference.
 C Knows the naming conventions for RDF properties and classes.
 C Reuses published properties and classes where available.
-D Uses portals and registries to find existing RDF-based vocabularies.
 C Coins namespace URIs, as needed, for any new properties and classes required.
 D Drafts a policy for coining URIs for properties and classes.
 D Chooses "hash"- or "slash"-based URI patterns based on requirements.
@@ -81,9 +79,10 @@ C Understands the purpose of publishing RDF vocabularies in multiple alternative
 B Mapping RDF vocabularies
 C Understands that the properties of hierarchical subsumption within an RDF vocabulary -- rdfs:subPropertyOf and rdfs:subClassOf -- can also be used to express mappings between vocabularies.
 C Understands that owl:equivalentProperty and owl:equivalentClass may be used when equivalencies between properties or between classes are exact.
+C Recognizes that owl:sameAs, while popular as a mapping property, has strong formal semantics that can entail unintended inferences.
 B RDF application profiles
-C Identifies real-world entities in an application domain as requirements for RDF classes.
-C Identifies resource attributes and relationships between domain entities as requirements for RDF properties.
+C Identifies real-world entities in an application domain as candidates for RDF classes.
+C Identifies resource attributes and relationships between domain entities as candidates for RDF properties.
 C Investigates how others have modeled the same or similar application domains.
 D Communicates a domain model with words and diagrams.
 D Participates in the social process of developing application profiles.
@@ -128,7 +127,6 @@ C Understands the basic syntax of a SPARQL query.
 D Uses angle brackets for delimiting URIs.
 D Uses question marks for indicating variables.
 D Uses PREFIX for base URIs.
-C Formulates advanced queries on data containing blank nodes.
 C Demonstrates a working knowledge of the forms and uses of SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK).
 D Uses the SELECT clause to identify the variables to appear in a table of query results.
 D Uses the WHERE clause provide the graph pattern to match against the graph data.
@@ -136,6 +134,7 @@ D Uses variables in SELECT and WHERE clauses to yield a table of results.
 D Uses ASK for a True/False test for a match to a query pattern.
 D Uses DESCRIBE to extract a single graph containing RDF data about resources.
 D Uses CONSTRUCT to extract and transform results into a single RDF graph specified by a graph template.
+D Uses FROM to formulate queries with URLs and local files.
 C Understands how to combine and filter graph patterns using operators such as UNION, OPTIONAL, FILTER, and MINUS.
 D Uses UNION to formulate queries with multiple possible graph patterns.
 D Uses OPTIONAL to formulate queries to return the values of optional variables when available.
@@ -159,8 +158,9 @@ D Uses the GROUP BY clause to transforms a result set so that only one row will 
 D Uses the HAVING clause to apply a filter to the result set after grouping.
 C Differentiates between a Default Graph and a Named Graph, and formulates queries using the GRAPH clause.
 D Formulates advanced queries using FROM NAMED and GRAPH on local data.
-D Formulate advanced queries using FROM NAMED on remote data.
-C Formulate advanced queries using subqueries.
+D Formulates advanced queries using FROM NAMED on remote data.
+D Formulates advanced queries on data containing blank nodes.
+D Formulates advanced queries using subqueries.
 C Uses a temporary variable to extend a query.
 C Understands the role of Property Paths and how they are formed by combining predicates with regular expression-like operators.
 C Understands the concept of Federated Search.
@@ -168,7 +168,6 @@ D Formulates advanced queries on a remote SPARQL endpoint using the SERVICE dire
 D Uses federated query to query over a local graph store and one or more other SPARQL endpoints.
 D Pulls data from a different SPARQL endpoints in one single query using the SERVICE directive.
 C Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by a third party tools and APIs.
-C Formulates queries using FROM with URLs and local files.
 C Reads and understands high-level descriptions of the classes and properties of a dataset in order to write queries.
 C Uses available tools, servers, and endpoints to issue queries against a dataset.
 D Execute SPARQL queries using the Jena ARQ command-line utility.
@@ -205,5 +204,3 @@ D Uses proper syntax to request specific media types, such as Turtle.
 C Understands the difference between SQL query language (which operates on database tables) and SPARQL (which operates on RDF graphs).
 A Creating Linked Data applications
 B Storing RDF data
-B Linked Data application architecture
-B Linked Data mashups
