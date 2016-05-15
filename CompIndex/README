@@ -1,4 +1,25 @@
 ----------------------------------------------------------------------
+Overview of the process
+
+The process requires
+
+1. A "source editor" (currently Tom), who
+   -- understands how the process works,
+   -- can edit the source files
+   -- can run `make`, which runs the Ruby script, which requires:
+      * prior installation of `ruby`
+      * prior installation of `pandoc`
+   -- can commit files to https://github.com/ld4pe/cieb
+   -- can communicate the URL to...
+
+2. A "production editor" (currently Stuart), who
+   -- can use ASN to manually update the competency index in the ASN editor
+   -- can communicate to...
+
+3. A "webmaster" (currently David or Abi), who 
+   -- can update the Competency Index on the Web from the ASN editor
+
+----------------------------------------------------------------------
 How the "diff" is prepared (for use in manually updating CI in ASN editor)
 
   1. Edit CompIndex-stage.txt over a period of hours, days, or weeks.  
