@@ -3,4 +3,4 @@ CompIndex-generated.md: CompIndex.txt
 	pandoc CompIndex-generated.md -o CompIndex-generated.docx
 	git add CompIndex-generated.md
 	git add CompIndex-generated.docx
-	git commit -m 'generated CompIndex-generated.md'
+	git commit -m 'generated CompIndex-generated.md and CompIndex-generated.docx'
