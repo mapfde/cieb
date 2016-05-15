@@ -1,7 +1,13 @@
 ----------------------------------------------------------------------
 How the "diff" is prepared (for use in manually updating CI in ASN editor)
 
-  1. Edit CompIndex-stage.txt over a period of hours, days, weeks...
+  1. Edit CompIndex-stage.txt over a period of hours, days, or weeks.  
+
+     Note: The rationale for editing CompIndex-stage.txt (and not CompIndex.txt) 
+     is to make it easy for the editor to keep track of how much the "stage" 
+     version is diverging from the last "published" version by using common tools
+     such as `vimdiff` and `diff` on the two files within the local copy of the 
+     repository.
 
   2. When CompIndex-stage.txt is ready to be published, copy over CompIndex.txt
      then commit with Github:
@@ -10,6 +16,10 @@ How the "diff" is prepared (for use in manually updating CI in ASN editor)
     $ git add CompIndex.txt
     $ git commit -m 'CompIndex.txt - new version for publication'
     $ git push
+
+    Note: By using a committed and pushed version of CompIndex.txt, one can 
+    get a "diff" of changes that has its own URL and is formatted nicely, 
+    as described in the following steps...
 
   3. Go to commits page on the Web: https://github.com/ld4pe/cieb/commits/master
 
