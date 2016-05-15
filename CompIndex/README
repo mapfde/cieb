@@ -22,10 +22,43 @@ How the "diff" is prepared (for use in manually updating CI in ASN editor)
      and send to Stuart (or whomever is using ASN to update the competency index)
 
 ----------------------------------------------------------------------
+How to generate a new version CompIndex-generated.docx (which is used to create a Google doc)
+
+  1. In your local copy of the 'cieb' repository, go to the directory 
+     https://github.com/ld4pe/cieb/tree/master/CompIndex
+
+  2. Check that the file CompIndex.txt is more recent than the file 
+     CompIndex-generated.docx.  For example:
+
+     - 2016-05-12  12:10      17008  CompIndex-generated.docx        
+     - 2016-05-14  08:28      17833  CompIndex.txt   
+
+  3. Run the command `make`.  This command detects that CompIndex.txt is more 
+     recent than CompIndex-generated.docx and runs the following commands:
+
+     1    ruby mkcompindex.rb --source 'CompIndex.txt' --target 'CompIndex-generated.md'
+     2    pandoc CompIndex-generated.md -o CompIndex-generated.docx
+     3    git add CompIndex-generated.md
+     4    git add CompIndex-generated.docx
+     5    git commit -m 'generated CompIndex-generated.md and CompIndex-generated.docx'
+     
+     Explanation:
+
+     1. Runs the Ruby script `mkcompindex.rb`, which takes CompIndex.txt as an input 
+        and creates a Markdown file.
+     2. Runs `pandoc` to read the Markdown file as output and create a DOCX file (MSWord).
+     3. Adds the Markdown file to Git.
+     4. Adds the DOCX file to Git.
+     5. Commits both files in your _local_ Git repository.
+
+  4. Inspect the results and repeat as necessary.  When the results are satisfactory, 
+     commit them to Github with the local command `push`.
+
+----------------------------------------------------------------------
 How to convert CompIndex-generated.docx into a Google Doc 
   
-  http://drive.google.com/drive/my-drive > New > FileUpload > [Click on file] >
-    OpenWith > GoogleDocs
+  http://drive.google.com/drive/my-drive > New > FileUpload > [Click on file] - it uploads
+    > Click on filename ["uploaded"] > Click on OpenWith > GoogleDocs
 
   Then share the file with others in "comment-only" mode
     Share > GetShareableLink > Anyone with the link "can comment"
