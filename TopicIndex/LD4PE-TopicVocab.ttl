@@ -24,10 +24,10 @@ pet:ld01 a skos:Concept ;
     skos:prefLabel "Fundamentals of Resource Description Framework"@en-us ;
     skos:inScheme pet: ;
     skos:topConceptOf pet: ;   
-    skos:narrower pet:ld007,
-        pet:ld008,
-        pet:ld009,
-        pet:ld010 .
+    skos:narrower pet:ld07,
+        pet:ld08,
+        pet:ld09,
+        pet:ld10 .
     
 pet:ld02 a skos:Concept ;
     skos:prefLabel "Fundamentals of Linked Data"@en-us ;
@@ -163,7 +163,7 @@ pet:ld22 a skos:Concept ;
     skos:broader pet:ld04 ;
     skos:inScheme pet: .
 
-pet:ld23; a skos:Concept ;
+pet:ld23 a skos:Concept ;
     skos:prefLabel "Creating RDF data"@en-us ;
     skos:broader pet:ld04 ;
     skos:inScheme pet: .
