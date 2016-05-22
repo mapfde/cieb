@@ -35,7 +35,6 @@ pet:ld02 a skos:Concept ;
     skos:topConceptOf pet: ;    
     skos:narrower pet:ld11,
         pet:ld12,
-        pet:ld13,
         pet:ld14,
         pet:ld15 .
 
@@ -79,9 +78,7 @@ pet:ld06 a skos:Concept ;
     skos:prefLabel "Creating Linked Data applications"@en-us ;
     skos:inScheme pet: ;
     skos:topConceptOf pet: ;
-    skos:narrower pet:ld34,
-        pet:ld35,
-        pet:ld36 .        
+    skos:narrower pet:ld35 .       
 
 pet:ld07 a skos:Concept ;
     skos:prefLabel "Identity in RDF"@en-us ;
@@ -113,18 +110,13 @@ pet:ld12 a skos:Concept ;
     skos:broader pet:ld02 ;
     skos:inScheme pet: .
 
-pet:ld13 a skos:Concept ;
-    skos:prefLabel "Linked Data architectures and services"@en-us ;
-    skos:broader pet:ld02 ;
-    skos:inScheme pet: .
-
 pet:ld14 a skos:Concept ;
-    skos:prefLabel "Linked data policies and best practices"@en-us ;
+    skos:prefLabel "Linked Data policies and best practices"@en-us ;
     skos:broader pet:ld02 ;
     skos:inScheme pet: .
 
 pet:ld15 a skos:Concept ;
-    skos:prefLabel "Non-RDF Linked Data"@en-us ;
+    skos:prefLabel "Non-RDF linked data"@en-us ;
     skos:broader pet:ld02 ;
     skos:inScheme pet: .
 
@@ -189,7 +181,7 @@ pet:ld27 a skos:Concept ;
     skos:inScheme pet: .   
 
 pet:ld28 a skos:Concept ;
-    skos:prefLabel "Programming RDF data"@en-us ;
+    skos:prefLabel "Processing RDF data using programming languages"@en-us ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .
 
@@ -205,7 +197,7 @@ pet:ld30 a skos:Concept ;
 
 pet:ld31 a skos:Concept ;
     skos:broader pet:ld05 ;
-    skos:prefLabel "Reasoning over RDF"@en-us ;
+    skos:prefLabel "Reasoning over RDF data"@en-us ;
     skos:inScheme pet: .
 
 pet:ld32 a skos:Concept ;
@@ -218,18 +210,8 @@ pet:ld33 a skos:Concept ;
     skos:broader pet:ld05 ;
     skos:inScheme pet: .  
 
-pet:ld34 a skos:Concept ;
-    skos:prefLabel "Storing RDF data"@en-us ;
-    skos:broader pet:ld06 ;
-    skos:inScheme pet: .
-
 pet:ld35 a skos:Concept ;
     skos:prefLabel "Linked Data application architecture"@en-us ;
-    skos:broader pet:ld06 ;
-    skos:inScheme pet: .
-
-pet:ld36 a skos:Concept ;
-    skos:prefLabel "Linked Data mashups"@en-us ;
     skos:broader pet:ld06 ;
     skos:inScheme pet: .
     
