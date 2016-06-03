@@ -12,7 +12,7 @@ pet: a skos:ConceptScheme ;
     dc:description "This vocabulary is used for the topical indexing of learning resources in the DCMI Exploratorium"@en-us ;
     dc:title "Linked Data Subject Vocabulary"@en-us ;
     dcterms:created "2015-09-12"^^xsd:date ;
-    dcterms:modified "2016-03-06"^^xsd:date ;
+    dcterms:modified "2016-06-03"^^xsd:date ;
     skos:hasTopConcept pet:ld01,
         pet:ld02,
         pet:ld03,
