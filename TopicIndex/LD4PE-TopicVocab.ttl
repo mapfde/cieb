@@ -78,7 +78,7 @@ pet:ld06 a skos:Concept ;
     skos:prefLabel "Creating Linked Data applications"@en-us ;
     skos:inScheme pet: ;
     skos:topConceptOf pet: ;
-    skos:narrower pet:ld35 .       
+    skos:narrower pet:ld34 .       
 
 pet:ld07 a skos:Concept ;
     skos:prefLabel "Identity in RDF"@en-us ;
@@ -208,12 +208,12 @@ pet:ld32 a skos:Concept ;
 pet:ld33 a skos:Concept ;
     skos:prefLabel "RDF data analytics"@en-us ;
     skos:broader pet:ld05 ;
-    skos:inScheme pet: .  
+    skos:inScheme pet: . 
 
-pet:ld35 a skos:Concept ;
-    skos:prefLabel "Linked Data application architecture"@en-us ;
+pet:ld34 a skos:Concept ;
+    skos:prefLabel "Storing RDF data"@en-us ;
     skos:broader pet:ld06 ;
-    skos:inScheme pet: .
+    skos:inScheme pet: . 
     
 pet:ld37 a skos:Concept ;
     skos:prefLabel "Finding RDF data"@en-us ;
