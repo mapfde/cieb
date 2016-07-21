@@ -204,3 +204,50 @@ D Uses proper syntax to request specific media types, such as Turtle.
 C Understands the difference between SQL query language (which operates on database tables) and SPARQL (which operates on RDF graphs).
 A Creating Linked Data applications
 B Storing RDF data
+
+##Debbie's adds for endpoints and triplestores for review during Fri's meeting##
+
+B: Understands SPARQL endpoint basics
+
+C: Understands the web service as the XML-based system in which a client issues a query and a response is returned.
+
+C. Understands a SPARQL endpoint as a web service, making available public data sources in a variety of formats by accepting SPARQL queries (Adapted from Ducharme).
+
+D. Knows how to use DBpedia’s SNORQL program and interface for retrieving data via SPARQL queries.
+
+C. Is aware of available directories (e.g. the Linked Open Vocabularies site) to retrieve addresses of endpoints.
+
+
+C. Understands that the triplestore may serve as a SPARQL endpoint (adapted from Ducharme)
+
+B. Understands the subtle differences between a triplestore (functioning as something similar to a MYSQL database manager) and an endpoint (which may or may not also be a triplestore).
+
+C. Is aware of both commercially available and open source triple stores.
+
+
+C. Is aware that a triplestore may or may not support SPARQL or “SPARQL-like” queries (adapted from Ducharme)
+
+C. Is aware of how triple stores handle named or unnamed graphs (e.g. explicitly specifying FROM NAMED in your query)
+
+C. Understands how Named Graphs can be of use in designating certain sets of triples in a triplestore
+
+C. Understands the history and development of triple stores and endpoints and how they complimentarily aided in the support and uptake of SPARQL.
+
+C. Understands the role of the SPARQL processor working in conjunction with the triplestore or endpoint to process and retrieved data. 
+
+C. Understands using the SERVICE keyword to query remote RDF data by pointing it to a SPARQL endpoint directly, obviating the need to point to an RDF file somewhere (or at a service delivering the equivalent of an RDF file)/retrieve the data pre-query.
+
+D. Understands how using SERVICE differs from NOT using SERVICE.
+
+D. Understands how SERVICE allows you to embed a query-within-a-query.
+
+D. Understands how the SERVICE keyword allows you to get at otherwise “silo-ed’ data (adapted from Ducharme)
+
+D. Understands “the SERVICE keyword can pass a graph pattern or an entire query to the endpoint” (Ducharme)
+
+D. Understands “adding the LIMIT and OFFSET keywords to these queries can help you cut back on how much your queries ask of these SPARQL endpoints.” (Ducharme)
+
+D. Understands “a program or web form can send a query to a SPARQL endpoint via HTTP and use the returned results with very little code” using an escaped version of the query and attaching it to the URI as a parameter. (Ducharme)
+
+.
+
