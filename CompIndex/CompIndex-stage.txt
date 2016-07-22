@@ -203,7 +203,18 @@ D Uses DELETE to remove a graph.
 D Uses POST to add triples to an existing graph.
 D Uses proper syntax to request specific media types, such as Turtle.
 C Understands the difference between SQL query language (which operates on database tables) and SPARQL (which operates on RDF graphs).
-A Creating Linked Data applications
+A Linked Data applications
+B Characteristics of Linked Data Applications
+C Understands that Linked Data Applications basically consume LD from one or more sources, modify it and/or create additional data and pass it on to a web interface that is used for presentation and further integration in other applications
+C Knows the typical application categories: data browsers, search engines and domain-specific applications
+C Knows that Linked Data Applications can be classified according to several dimensions: semantic technology depth (extrinsic  or intrinsic), information flow direction (consuming or producing), semantic richness (shallow or strong), semantic integration (isolated or integrated)
+B Architecture of Linked Data Applications
+C Knows the most common tiered software architecure with data, logic and presentation tier
+C Understands that all visualisation or other presentation of data should be done in the presentation tier
+C Understands that all sophisticated processing of data should be done in the logic tier
+C Unterstands that all data access and preparation should be done in the data tier
+C Knows that in the data tier, wrappers are used to create a unified data access component for different types of data (e.g. LD, relational data, xml data)
+C Knows that in the data tier, the access component feeds into a data integration component that interlinks, maps and cleanes the data
+C Knows that in the data tier, the proprocessed and cleaned data is typically stored in an integrated data store
+C Knows and can differentiate the different data access patterns: crawling with cacheing, uncached on-the-fly and federated query
 B Storing RDF data
-B Linked Data application architecture
-B Linked Data mashups
